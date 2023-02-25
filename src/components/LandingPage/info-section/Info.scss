@@ -1,0 +1,47 @@
+.infoContainer {
+  position: absolute;
+  width: 40%;
+  top: 240px;
+  .infoLine {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150%;
+    padding-bottom: 10px;
+    span {
+      color: #DBE126;
+    }
+  }
+  .infoButtonContainer{
+    display: flex;
+    margin-top: 30px;
+    gap: 40px;
+  .infoServicesButton {
+    background: #DBE126;
+    border-radius: 2px;
+    width: 221px;
+    height: 56px;
+    font-weight: 700;
+    font-size: 16px;  
+    color: black;  
+    cursor: pointer;
+  }
+  .infoContactButton{
+    background: none;
+    color: #DBE126;
+    font-weight: 700;
+    font-size: 16px;  
+    border: none;
+    cursor: pointer;
+  }
+}
+  // .infoButton::after {
+  //   position: absolute;
+  //   content: "";
+  //   width: 70px;
+  //   height: 5px;
+  //   left: 0;
+  //   margin-top: 50px;
+  //   background: rgba(222, 222, 222, 0.83);
+  // }
+}
+

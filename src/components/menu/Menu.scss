@@ -1,0 +1,35 @@
+.tag-menu-container {
+  max-width: 85%;
+  margin: auto;
+  height: 140px;
+  .tag-menu {
+    .menu-list-desktop {
+      display: flex;
+    }
+    .links-container {
+      position: absolute;
+    right: 8%;
+    top: 65px;
+    }
+  }
+  .tag-link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .active {
+    color: #DBE126;
+  }
+}
+.menu-button {
+  border: none;
+  background-color: white;
+  position: absolute;
+  left: 80%;
+  top: 8.5%;
+  cursor: pointer;
+}

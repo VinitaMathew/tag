@@ -1,0 +1,22 @@
+.routePage1 {
+  .expandable-column {
+    display: flex;
+    .column {
+      height: 165px;
+      cursor: pointer;
+      background-color: #ccc;
+      transition: background-color 0.3s ease-in;
+    }
+    .expanded {
+      width: 100%;
+      font-size: 16px;
+      background-color: #999;
+      .name {
+        font-size: 20px;
+      }
+    }
+    .hiddenColumn {
+      display: none;
+    }
+  }
+}
