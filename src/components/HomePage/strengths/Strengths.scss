@@ -40,7 +40,6 @@ section > div span {
 section > div h1 {
   text-transform: capitalize;
   letter-spacing: 0.8px;
-  font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: clamp(3.4375rem, 3.25rem + 0.75vw, 4rem);
   background-color: #005baa;
@@ -89,8 +88,6 @@ section > div > a:hover {
 }
 
 .swiper {
-  width: 100%;
-  //height: 100%;
   padding-top: 3.125rem;
 }
 
@@ -114,7 +111,6 @@ section > div > a:hover {
 
 .swiper-slide h2 {
   color: #fff;
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 1.4;
@@ -125,7 +121,6 @@ section > div > a:hover {
 
 .swiper-slide p {
   color: #dadada;
-  font-family: "Roboto", sans-serif;
   font-weight: 300;
   padding: 0 1.563rem;
   line-height: 1.6;
@@ -215,17 +210,20 @@ section > div > a:hover {
   }
 }
 
-@media screen and (min-width: 93.75rem) {
-  .swiper {
-    width: 85%;
-  }
-}
+// @media screen and (min-width: 93.75rem) {
+//   .swiper {
+//     width: 85%;
+//   }
+// }
 
+.swiper {
+   width: 1000px;
+}
 .swiper-slide {
   opacity: 0;
 }
 .swiper-slide-visible {
-  opacity: 0.1;
+  opacity: 0.2;
   border-radius: 24px;
 }
 .swiper-slide-active {

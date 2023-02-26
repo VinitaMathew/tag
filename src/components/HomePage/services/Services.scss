@@ -51,7 +51,7 @@
       .service-desc {
         position: relative;
         text-align: center;
-        top: 140px;
+        top: 190px;
         opacity: 0;
         transition: opacity 1s ease-out, transform 0.45s ease-out;
       }
@@ -106,7 +106,7 @@
         transition: transform 0.45s ease-out;
       }
       .service-desc {
-        transform: translateY(-7rem);
+        transform: translateY(-10rem);
         opacity: 1;
         transition: opacity 1s ease-out, transform 0.45s ease-out;
       }

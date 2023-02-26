@@ -1,5 +1,30 @@
-.contactContanier{
-    height: 475px;
-    max-width: 85%;
-    margin: auto;
+.contactContanier {
+  height: 475px;
+  max-width: 85%;
+  margin: auto;
+  .contact-heading {
+    padding-top: 75px;
+    font-weight: 700;
+    font-size: 48px;
+    border-top: 1px solid #222222;
+  }
+  .contact-desc {
+    display: flex;
+    margin: 30px 0;
+    .contact-text {
+      font-weight: 700;
+      font-size: 24px;
+      max-width: 488px;
+    }
+    .back-link {
+      position: absolute;
+      right: 8%;
+      display: block;
+      padding: 16px 32px;
+      border: 2px solid #dbe126;
+      border-radius: 2px;
+      color: #dbe126;
+      text-decoration: none;
+    }
+  }
 }

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "../HomePage/Home";
 import Menu from "../menu/Menu";
 import RoutePage1 from "../RoutePage1/RoutePage1";
+import ProductsPage from "../ProductsPage/ProductsPage";
 import Contact from "../contact/Contact";
 import "./Routing.scss";
 
@@ -17,13 +18,6 @@ const AboutPage = () => (
   <div>
     <h1>About Page</h1>
     <p>Learn more about us</p>
-  </div>
-);
-
-const Products = () => (
-  <div>
-    <h1>Products Page</h1>
-    <p>List of products</p>
   </div>
 );
 
@@ -48,7 +42,7 @@ export default function Routing() {
           <Routes>
             <Route path="/" element={<Home contactClick={scrollToContact} />} />
             <Route path="/about" element={<AboutPage />} />
-            <Route path="/products" element={<Products />} />
+            <Route path="/products" element={<ProductsPage />} />
             <Route path="/blog" element={<RoutePage1 />} />
             <Route path="/careers" element={<Careers />} />
           </Routes>
