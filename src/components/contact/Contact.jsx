@@ -5,7 +5,6 @@ import "./Contact.scss";
 
 const Contact = React.forwardRef((props,contactRef)=>{
   const location = useLocation();
-  console.log(location.pathname);
     return (
       <div ref={contactRef} className="contactContanier">
         <div className="contact-heading">TAG US</div>
