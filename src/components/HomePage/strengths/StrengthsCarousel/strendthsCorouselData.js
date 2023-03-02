@@ -1,5 +1,5 @@
-import Strength1 from "../../../assets/strength1.jpg";
-import Strength2 from "../../../assets/strength2.jpg";
+import Strength1 from "../../../../assets/strength1.jpg";
+import Strength2 from "../../../../assets/strength2.jpg";
 
 const strengthsData = [
   {

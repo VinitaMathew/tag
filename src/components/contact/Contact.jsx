@@ -1,10 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { useLocation } from "react-router-dom";
 import "./Contact.scss";
 
 const Contact = React.forwardRef((props,contactRef)=>{
-  const location = useLocation();
     return (
       <div ref={contactRef} className="contactContanier">
         <div className="contact-heading">TAG US</div>
@@ -16,7 +14,7 @@ const Contact = React.forwardRef((props,contactRef)=>{
             <NavLink
               className="back-link"
               to="/"
-              onClick={location.pathname == "/" ? props.homeClick : null}
+              onClick={props.homeClick}
             >
               Back to Home
             </NavLink>

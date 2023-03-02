@@ -19,7 +19,7 @@ export default function ProductsPage() {
         setDetailsPageOpen(false);
     };
     return (
-      <div className="productsContainer">
+      <div className="productsPageContainer">
         {detailsPageOpen ? (
           <ProductDetails details={selectedProduct} handleBackClick={()=>handleBackClick()}/>
         ) : (

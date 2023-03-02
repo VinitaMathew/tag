@@ -7,8 +7,8 @@ import BorderImage2 from "../../../assets/border-img2.svg";
 
 const Services = () => {
   const [ref, inView] = useInView({
-    threshold: 0.3, // Trigger when the component is 50% visible
-    triggerOnce: true, // Only trigger once
+    threshold: 0.3,
+    triggerOnce: true,
   });
   return (
     <div className="servicesContainer">
