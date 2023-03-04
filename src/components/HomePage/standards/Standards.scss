@@ -21,10 +21,10 @@
     }
     .row2 {
       margin-left: 23%;
+      gap: 13%;
     }
     .standards-table-row {
       display: flex;
-      gap: 13%;
       float: left;
       .standards-table-data {
         display: flex;
@@ -49,22 +49,28 @@
           background: #212121;
           border-radius: 10px;
           min-height: 118px;
-          max-width: 490px;
           .description {
             margin: 25px 20px 20px 65px;
           }
+        }
+
+        .desc1 {
+          width: 70%;
+        }
+        .desc2 {
+          width: 100%;
         }
       }
     }
   }
 }
 .slide-up {
-    transform: translateY(-2.3rem);
-    opacity: 1;
-    transition: opacity 1s ease-out, transform 0.45s ease-out;
-  }
+  transform: translateY(-2.3rem);
+  opacity: 1;
+  transition: opacity 1s ease-out, transform 0.45s ease-out;
+}
 
-  .hidden {
-    opacity: 0;
-    transform: translateY(40px);
-  }
+.hidden {
+  opacity: 0;
+  transform: translateY(40px);
+}

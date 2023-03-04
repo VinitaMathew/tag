@@ -24,13 +24,13 @@ export default function Standards() {
         <tr className="standards-table-row row1">
           <td className="standards-table-data">
             <img className="logo logo1" src={StandardsData[0].logo} />
-            <div className="description-wrapper">
+            <div className="description-wrapper desc1">
               <div className="description">{StandardsData[0].description}</div>
             </div>
           </td>
           <td className="standards-table-data">
             <img className="logo logo2" src={StandardsData[1].logo} />
-            <div className="description-wrapper">
+            <div className="description-wrapper desc1">
               <div className="description">{StandardsData[1].description}</div>
             </div>
           </td>
@@ -38,13 +38,13 @@ export default function Standards() {
         <tr className="standards-table-row row2">
           <td className="standards-table-data">
             <img className="logo logo3" src={StandardsData[2].logo} />
-            <div className="description-wrapper">
+            <div className="description-wrapper desc2">
               <div className="description">{StandardsData[2].description}</div>
             </div>
           </td>
           <td className="standards-table-data">
             <img className="logo logo4" src={StandardsData[3].logo} />
-            <div className="description-wrapper">
+            <div className="description-wrapper desc2">
               <div className="description">{StandardsData[3].description}</div>
             </div>
           </td>

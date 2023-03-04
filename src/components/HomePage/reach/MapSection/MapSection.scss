@@ -1,0 +1,74 @@
+.map-section-container {
+  display: flex;
+  margin: 155px 0px 0px 10%;
+  justify-content: flex-end;
+  .map-content-wrapper {
+    width: 29%;
+    margin-top: 5%;
+    .reach-heading {
+      font-weight: 700;
+      font-size: 32px;
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0%;
+        bottom: 0;
+        left: -20px;
+        height: 41px;
+        border-left: 8px solid #dbe126;
+      }
+    }
+    .reach-map-text {
+      margin-top: 45px;
+    }
+  }
+  .map-image-wrapper {
+    .location-pin {
+      position: relative;
+      margin-left: -115px;
+      border-radius: 50% 50% 50% 0;
+      border: 7px solid #9fa418;
+      width: 20px;
+      height: 20px;
+      transform: rotate(-45deg);
+      opacity: 40%;
+      &:hover {
+        opacity: 100%;
+      }
+    }
+    .pin1 {
+      top: -76%;
+      left: 34%;
+    }
+    .pin-active{
+        opacity: 100%;
+    }
+    .pin2 {
+      top: -34%;
+      left: 61%;
+    }
+    .pin3 {
+      top: -55%;
+      left: 71%;
+    }
+    .pin4 {
+      top: -42%;
+      left: 90%;
+    }
+
+    .location-pin::after {
+      position: absolute;
+      content: "";
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      top: 50%;
+      left: 50%;
+      margin-left: -5px;
+      margin-top: -5px;
+      background-color: #fff;
+    }
+  }
+}

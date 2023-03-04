@@ -4,6 +4,7 @@ import Home from "../HomePage/Home";
 import Menu from "../menu/Menu";
 import RoutePage1 from "../RoutePage1/RoutePage1";
 import ProductsPage from "../ProductsPage/ProductsPage";
+import BlogPage from "../BlogPage/BlogPage";
 import Contact from "../contact/Contact";
 import "./Routing.scss";
 
@@ -43,7 +44,7 @@ export default function Routing() {
             <Route path="/" element={<Home contactClick={scrollToContact} />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/products" element={<ProductsPage />} />
-            <Route path="/blog" element={<RoutePage1 />} />
+            <Route path="/blog" element={<BlogPage />} />
             <Route path="/careers" element={<Careers />} />
           </Routes>
           <Contact ref={ref} homeClick={scrollToHome} />

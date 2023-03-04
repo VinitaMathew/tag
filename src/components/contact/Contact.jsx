@@ -11,11 +11,7 @@ const Contact = React.forwardRef((props,contactRef)=>{
             Be a part of Sustainable and Eco–Friendly Journey. Be The Change
           </div>
           <nav>
-            <NavLink
-              className="back-link"
-              to="/"
-              onClick={props.homeClick}
-            >
+            <NavLink className="back-link" to="/" onClick={props.homeClick}>
               Back to Home
             </NavLink>
           </nav>

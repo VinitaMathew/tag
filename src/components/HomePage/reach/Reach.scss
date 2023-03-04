@@ -1,0 +1,35 @@
+.reachContainer {
+  height: 1500px;
+  .reach-section {
+    margin-top: 70px;
+    display: flex;
+    gap: 80px;
+    margin-right: 15%;
+    .reach-image-wrapper {
+      position: relative;
+      width: fit-content;
+      .reach-image {
+        position: relative;
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        left: 97%;
+        top: -40px;
+        transform: translateX(-50%);
+        border-left: 116px solid #dbe126;
+        height: 120%;
+      }
+    }
+    .react-content-section {
+      margin: auto;
+      .react-content {
+        font-weight: 700;
+        font-size: 32px;
+        span {
+          color: #dbe126;
+        }
+      }
+    }
+  }
+}

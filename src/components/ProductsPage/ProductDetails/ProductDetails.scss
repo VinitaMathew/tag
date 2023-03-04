@@ -1,0 +1,19 @@
+.product-details-wrapper {
+  height: 1100px;
+  .dashboard-image {
+    width: 100%;
+    position: absolute;
+  }
+  .detail-wrapper {
+    position: relative;
+    .detail-section {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, 18%);
+      width: 80%;
+      min-height: 743px;
+      padding: 40px;
+      background: #292929;
+    }
+  }
+}

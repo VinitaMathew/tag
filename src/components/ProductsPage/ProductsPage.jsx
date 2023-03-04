@@ -23,6 +23,7 @@ export default function ProductsPage() {
         {detailsPageOpen ? (
           <ProductDetails details={selectedProduct} handleBackClick={()=>handleBackClick()}/>
         ) : (
+          <div className="products-section-wrapper">
           <ul className="products-list">
             {ProductsData.map((product) => {
               return (
@@ -37,6 +38,7 @@ export default function ProductsPage() {
               );
             })}
           </ul>
+          </div>
         )}
       </div>
     );
