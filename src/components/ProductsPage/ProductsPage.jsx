@@ -21,23 +21,27 @@ export default function ProductsPage() {
     return (
       <div className="productsPageContainer">
         {detailsPageOpen ? (
-          <ProductDetails details={selectedProduct} handleBackClick={()=>handleBackClick()}/>
+          <ProductDetails
+            details={selectedProduct}
+            handleBackClick={() => handleBackClick()}
+          />
         ) : (
           <div className="products-section-wrapper">
-          <ul className="products-list">
-            {ProductsData.map((product) => {
-              return (
-                <li
-                  onClick={() => handleProductClick(product)}
-                  className="products-list-item"
-                >
-                  <img src={product.image} className="product-image"></img>
-                  <div className="product-title">{product.title}</div>
-                  <div className="know-more-text">Know more</div>
-                </li>
-              );
-            })}
-          </ul>
+            <h1 className="products-page-heading">Our Product Range</h1>
+            <ul className="products-list">
+              {ProductsData.map((product) => {
+                return (
+                  <li
+                    onClick={() => handleProductClick(product)}
+                    className="products-list-item"
+                  >
+                    <img src={product.image} className="product-image"></img>
+                    <div className="product-title">{product.title}</div>
+                    <div className="know-more-text">Know more</div>
+                  </li>
+                );
+              })}
+            </ul>
           </div>
         )}
       </div>

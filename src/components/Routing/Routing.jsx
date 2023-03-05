@@ -2,7 +2,7 @@ import React,{useRef,useState} from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "../HomePage/Home";
 import Menu from "../menu/Menu";
-import RoutePage1 from "../RoutePage1/RoutePage1";
+import AboutPage from "../AboutPage/AboutPage";
 import ProductsPage from "../ProductsPage/ProductsPage";
 import BlogPage from "../BlogPage/BlogPage";
 import Contact from "../contact/Contact";
@@ -11,14 +11,7 @@ import "./Routing.scss";
 const Careers = () => (
   <div>
     <h1>Careers Page</h1>
-    <p>Welcome to the careers page</p>
-  </div>
-);
-
-const AboutPage = () => (
-  <div>
-    <h1>About Page</h1>
-    <p>Learn more about us</p>
+    <p>Welcome to careers page</p>
   </div>
 );
 

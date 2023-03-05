@@ -1,5 +1,6 @@
 .product-details-wrapper {
   height: 1100px;
+  margin-top: 20px;
   .dashboard-image {
     width: 100%;
     position: absolute;
@@ -14,6 +15,47 @@
       min-height: 743px;
       padding: 40px;
       background: #292929;
+
+      .back-button {
+        background: none;
+        border: none;
+        display: flex;
+        cursor: pointer;
+        .back-icon {
+          width: 24px;
+        }
+        .back-text {
+          font-weight: 500;
+          font-size: 16px;
+          color: #ffffff;
+          margin: 4px 0px 0px 13px;
+        }
+      }
+
+      .title {
+        font-weight: 700;
+        font-size: 32px;
+        margin-top: 25px;
+      }
+      .info1 {
+        margin: 40px auto;
+      }
+      .detail-image2 {
+        width: 98%;
+      }
+      .section2 {
+        display: flex;
+        gap: 109px;
+        margin: 60px auto;
+        width: 96%;
+        .info2 {
+          margin: 40px auto;
+          margin-top: unset;
+        }
+        .detail-image3 {
+          width: 98%;
+        }
+      }
     }
   }
 }

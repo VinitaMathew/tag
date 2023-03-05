@@ -1,6 +1,21 @@
 .productsPageContainer {
   .products-section-wrapper {
     height: 950px;
+    .products-page-heading {
+      font-weight: 700;
+      font-size: 48px;
+      text-align: center;
+      margin: 45px auto 65px;
+      &:after {
+        position: absolute;
+        content: "";
+        width: 34px;
+        height: 10px;
+        background: #dbe126;
+        left: 49%;
+        margin-top: 80px;
+      }
+    }
     .products-list {
       max-width: 85%;
       margin: auto;

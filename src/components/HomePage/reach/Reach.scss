@@ -1,5 +1,5 @@
 .reachContainer {
-  height: 1500px;
+  height: 1630px;
   .reach-section {
     margin-top: 70px;
     display: flex;
@@ -27,6 +27,25 @@
         font-weight: 700;
         font-size: 32px;
         span {
+          color: #dbe126;
+        }
+      }
+    }
+  }
+  .social-media-section {
+    text-align: center;
+    h3 {
+      font-weight: 700;
+      font-size: 20px;
+    }
+    .social-media-links {
+      font-weight: 700;
+      font-size: 32px;
+      a {
+        color: white;
+        text-decoration: none;
+        margin: auto 40px;
+        &:hover {
           color: #dbe126;
         }
       }
