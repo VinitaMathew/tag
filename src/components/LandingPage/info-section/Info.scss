@@ -1,7 +1,8 @@
 .infoContainer {
   position: absolute;
-  width: 40%;
+  width: 37%;
   top: 240px;
+  z-index: 1;
   .infoLine {
     font-weight: 700;
     font-size: 48px;

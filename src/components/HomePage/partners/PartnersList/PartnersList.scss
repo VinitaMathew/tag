@@ -1,0 +1,19 @@
+.partnersListContainer{
+    height: 410px;
+    h2 {
+        font-weight: 700;
+font-size: 24px;
+
+color: #7D7D7D;
+    }
+    .partners-row{
+        display: flex;
+        gap: 6%;
+        flex-wrap: wrap;
+        margin-bottom: 60px;
+        img {
+            flex:1;
+            width: 10%;
+        }
+    }
+}

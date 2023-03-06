@@ -1,8 +1,11 @@
 import React from "react";
-import Menu from "../menu/Menu";
 import LandingPage from "../LandingPage/LandingPage";
 import Services from "./services/Services";
+import Standards from "./standards/Standards";
+import Products from "./products/Products";
+import Partners from "./partners/Partners";
 import Strengths from "./strengths/Strengths";
+import Reach from "./reach/Reach";
 import "./Home.scss";
 
 export default function Home(props){
@@ -11,7 +14,11 @@ export default function Home(props){
       <div className="tag-home-page">
         <LandingPage contactClick={props.contactClick} />
         <Services />
+        <Standards />
+        <Products />
+        <Partners />
         <Strengths />
+        <Reach />
       </div>
     );
 }

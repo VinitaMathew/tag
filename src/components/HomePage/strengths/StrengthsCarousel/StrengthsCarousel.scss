@@ -1,0 +1,73 @@
+.strengths-carousel-wrapper {
+  height: 645px;
+  overflow: hidden;
+  .react-stacked-center-carousel-slide--3,
+  .react-stacked-center-carousel-slide-3 {
+    visibility: hidden;
+    .slide-title {
+      visibility: hidden;
+    }
+  }
+
+  .react-stacked-center-carousel-slide--1,
+  .react-stacked-center-carousel-slide-1 {
+    opacity: 0.7 !important ;
+    .slide-title {
+      visibility: hidden;
+    }
+  }
+
+  .react-stacked-center-carousel-slide--2,
+  .react-stacked-center-carousel-slide-2 {
+    opacity: 0.3 !important;
+    .slide-title {
+      visibility: hidden;
+    }
+  }
+
+  .my-slide-component {
+    position: relative;
+    text-align: center;
+    .slide-title {
+      position: absolute;
+      top: 80%;
+      left: 45%;
+      width: 100%;
+      transform: translate(-50%, -50%);
+      font-weight: 700;
+      font-size: 20px;
+    }
+  }
+  .tag-border-image3-2 {
+    position: absolute;
+    top: 7%;
+    left: 99%;
+    width: 6%;
+    transform: translate(-50%, -50%);
+  }
+  .tag-border-image3-3 {
+    position: absolute;
+    top: 55%;
+    left: -1%;
+    width: 21%;
+    transform: translate(-50%, -50%);
+  }
+  .carousel-left-button {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    text-align: center;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  .carousel-right-button {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    text-align: center;
+    font-size: 22px;
+    cursor: pointer;
+  }
+}

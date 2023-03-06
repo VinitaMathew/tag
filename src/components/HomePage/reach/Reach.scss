@@ -1,0 +1,55 @@
+.reachContainer {
+  height: 1670px;
+  .reach-section {
+    margin-top: 70px;
+    display: flex;
+    gap: 80px;
+    margin-right: 15%;
+    .reach-image-wrapper {
+      position: relative;
+      width: fit-content;
+      .reach-image {
+        position: relative;
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        left: 97%;
+        top: -40px;
+        transform: translateX(-50%);
+        border-left: 116px solid #dbe126;
+        height: 120%;
+      }
+    }
+    .react-content-section {
+      margin: auto;
+      .react-content {
+        font-weight: 700;
+        font-size: 32px;
+        span {
+          color: #dbe126;
+        }
+      }
+    }
+  }
+  .social-media-section {
+    text-align: center;
+    h3 {
+      font-weight: 700;
+      font-size: 20px;
+      margin-bottom: 50px;
+    }
+    .social-media-links {
+      font-weight: 700;
+      font-size: 32px;
+      a {
+        color: white;
+        text-decoration: none;
+        margin: auto 40px;
+        &:hover {
+          color: #dbe126;
+        }
+      }
+    }
+  }
+}
