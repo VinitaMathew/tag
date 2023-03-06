@@ -29,7 +29,7 @@
       position: relative;
       margin-left: -115px;
       border-radius: 50% 50% 50% 0;
-      border: 7px solid #9fa418;
+      border: 4px solid #9fa418;
       width: 20px;
       height: 20px;
       transform: rotate(-45deg);
@@ -50,12 +50,16 @@
       left: 61%;
     }
     .pin3 {
-      top: -55%;
+      top: -53%;
       left: 71%;
     }
     .pin4 {
       top: -42%;
       left: 90%;
+    }
+    .pin5 {
+      top: -42%;
+      left: 73%;
     }
 
     .location-pin::after {
@@ -68,7 +72,7 @@
       left: 50%;
       margin-left: -5px;
       margin-top: -5px;
-      background-color: #fff;
+      background-color: #9fa418;
     }
   }
 }

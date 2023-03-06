@@ -47,6 +47,7 @@ export default function MapSection() {
         ></div>
         <div className="location-pin pin3"></div>
         <div className="location-pin pin4"></div>
+        <div className="location-pin pin5"></div>
       </div>
     </div>
   );
