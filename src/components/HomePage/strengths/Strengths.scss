@@ -1,5 +1,7 @@
 .strengthsContainer {
   height: 785px;
+  position: relative;
+  overflow: hidden;
   .strengths-heading {
     font-weight: 700;
     font-size: 32px;
@@ -20,6 +22,14 @@
     margin: 0px auto 70px;
     font-weight: 400;
     font-size: 16px;
-    max-width: 80%;
+    max-width: 1152px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .strengthsContainer {
+    .strengths-content {
+      max-width: 80%;
+    }
   }
 }

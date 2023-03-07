@@ -1,20 +1,22 @@
 .aboutPageContainer {
-  max-width: 85%;
+  max-width: 1224px;
   margin: auto;
   min-height: 1700px;
   margin-top: 80px;
+  position: relative;
   .about-heading {
     font-weight: 700;
     font-size: 48px;
     margin-bottom: 80px;
+    position: relative;
     &::after {
       position: absolute;
       content: "";
       width: 34px;
       height: 10px;
       background: #dbe126;
-      left: 7.7%;
-      margin-top: 70px;
+      left: 0px;
+      margin-top: 85px;
     }
   }
   .about-section1-wrapper {
@@ -27,10 +29,10 @@
       font-size: 32px;
       position: absolute;
       background: #222222;
-      width: 52.4%;
+      width: 60%;
       height: 227px;
-      left: 35%;
-      top: 514px;
+      left: 33%;
+      top: 250px;
       padding: 74px 30px;
       border-left: 20px solid #dbe126;
     }
@@ -102,5 +104,11 @@
     color: black;
     cursor: pointer;
     margin: 0px 40% 140px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .aboutPageContainer {
+    max-width: 85%;
   }
 }

@@ -1,6 +1,6 @@
 .contactContanier {
   height: 550px;
-  max-width: 85%;
+  max-width: 1224px;
   margin: auto;
   .contact-heading {
     padding-top: 75px;
@@ -94,5 +94,11 @@
         margin-top: 10px;
       }
     }
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .contactContanier {
+    max-width: 85%;
   }
 }

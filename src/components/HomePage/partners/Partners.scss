@@ -1,6 +1,6 @@
 .partnersContainer {
   height: 1140px;
-  max-width: 85%;
+  max-width: 1224px;
   margin: auto;
   .partners-wrapper {
     margin-right: 7%;
@@ -39,5 +39,11 @@
         transform: translate(-50%, -50%);
       }
     }
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .partnersContainer {
+    max-width: 85%;
   }
 }

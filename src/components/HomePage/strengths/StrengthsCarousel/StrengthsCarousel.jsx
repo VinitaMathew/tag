@@ -11,7 +11,6 @@ export default function StrengthsCarousel() {
   const ref = React.useRef();
   return (
     <div
-      style={{ width: "100%", position: "relative" }}
       className="strengths-carousel-wrapper "
     >
       <img className="tag-border-image3-2" src={BorderImage3} alt="" />
@@ -42,9 +41,8 @@ export default function StrengthsCarousel() {
           );
         }}
       />
-      <>
+      <div className="carousel-button-wrapper">
         <div
-          style={{ position: "absolute", top: "68%", left: "47%", zIndex: 10 }}
           onClick={() => {
             ref.current?.goBack();
           }}
@@ -53,12 +51,6 @@ export default function StrengthsCarousel() {
           {"<"}
         </div>
         <div
-          style={{
-            position: "absolute",
-            top: "68%",
-            right: "47%",
-            zIndex: 10,
-          }}
           onClick={() => {
             ref.current?.goNext(6);
           }}
@@ -66,7 +58,7 @@ export default function StrengthsCarousel() {
         >
           {">"}
         </div>
-      </>
+      </div>
     </div>
   );
 }

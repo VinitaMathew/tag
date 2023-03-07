@@ -1,15 +1,15 @@
 .tag-menu-container {
-  max-width: 85%;
+  max-width: 1224px;
   margin: auto;
   height: 140px;
   .tag-menu {
+    width: 100%;
     .menu-list-desktop {
       display: flex;
+      gap: 32%;
     }
     .links-container {
-      position: absolute;
-    right: 8%;
-    top: 65px;
+      margin-top: 55px;
     }
   }
   .tag-link {
@@ -22,7 +22,7 @@
     cursor: pointer;
   }
   .active {
-    color: #DBE126;
+    color: #dbe126;
     font-weight: 700;
   }
 }
@@ -33,4 +33,16 @@
   left: 80%;
   top: 8.5%;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1440px) {
+  .tag-menu-container {
+    max-width: 85%;
+    .tag-menu {
+      .links-container {
+        position: absolute;
+        right: 10%;
+      }
+    }
+  }
 }
