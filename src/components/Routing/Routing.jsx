@@ -5,15 +5,9 @@ import Menu from "../menu/Menu";
 import AboutPage from "../AboutPage/AboutPage";
 import ProductsPage from "../ProductsPage/ProductsPage";
 import BlogPage from "../BlogPage/BlogPage";
+import CareersPage from "../CareersPage/CareersPage";
 import Contact from "../contact/Contact";
 import "./Routing.scss";
-
-const Careers = () => (
-  <div>
-    <h1>Careers Page</h1>
-    <p>Welcome to careers page</p>
-  </div>
-);
 
 export default function Routing() {
   const ref = useRef(null);
@@ -38,7 +32,7 @@ export default function Routing() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/products" element={<ProductsPage />} />
           <Route path="/blog" element={<BlogPage />} />
-          <Route path="/careers" element={<Careers />} />
+          <Route path="/careers" element={<CareersPage />} />
         </Routes>
         <Contact ref={ref} homeClick={scrollToHome} />
       </HashRouter>
