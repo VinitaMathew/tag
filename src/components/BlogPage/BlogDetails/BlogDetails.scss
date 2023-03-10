@@ -1,0 +1,36 @@
+.blog-details-wrapper {
+  min-height: 1100px;
+  margin-top: 60px;
+  .back-button {
+    background: none;
+    border: none;
+    display: flex;
+    cursor: pointer;
+    .back-icon {
+      width: 24px;
+    }
+    .back-text {
+      font-weight: 500;
+      font-size: 16px;
+      color: #ffffff;
+      margin: 4px 0px 0px 13px;
+    }
+  }
+  .blog-details-heading {
+    font-weight: 600;
+    font-size: 42px;
+  }
+  .blog-details-image {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .blog-content{
+    p{
+      margin-top: 55px;
+    }
+    div{
+      color: palevioletred;
+    }
+  }
+}

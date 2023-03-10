@@ -9,7 +9,7 @@ export default function ProductDetails(props) {
         <img src={details.detailImg1} className="dashboard-image" />
         <div className="detail-wrapper">
           <div className="detail-section">
-            <button onClick={props.handleBackClick} className="back-button">
+            <button onClick={handleBackClick} className="back-button">
               <img src={BackIcon} alt="Back" className="back-icon" />
               <span className="back-text">Back</span>
             </button>

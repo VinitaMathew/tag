@@ -1,6 +1,6 @@
 .map-section-container {
   display: flex;
-  margin: 155px 0px 0px 10%;
+  margin-top: 155px;
   justify-content: flex-end;
   .map-content-wrapper {
     width: 29%;
@@ -74,5 +74,11 @@
       margin-top: -5px;
       background-color: #9fa418;
     }
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .map-section-container {
+    margin-left: 10%;
   }
 }

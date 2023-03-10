@@ -48,17 +48,21 @@
         margin: unset;
       }
     }
-    .about-image2 {
-      width: 584px;
-      height: auto;
-      z-index: 1;
-    }
-    .tag-border-image3-4 {
-      position: absolute;
-      top: 26%;
-      left: 92%;
-      width: 23%;
-      transform: translate(-50%, -50%);
+    .section2-image-wrapper {
+      position: relative;
+      .about-image2 {
+        width: 584px;
+        height: auto;
+        position: relative;
+        z-index: 1;
+      }
+      .tag-border-image3-4 {
+        position: absolute;
+        top: 112px;
+        left: 81%;
+        width: 55%;
+        transform: translate(-50%, -50%);
+      }
     }
   }
   .about-section3-wrapper {

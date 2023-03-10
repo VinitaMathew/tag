@@ -34,9 +34,26 @@
         font-size: 24px;
         margin-bottom: 25px;
       }
-      .careers-content {
-        font-weight: 400;
-        font-size: 16px;
+      .careers-content-wrapper {
+        display: flex;
+        .careers-content {
+          font-weight: 400;
+          font-size: 16px;
+        }
+        .apply-link {
+          display: flex;
+          gap: 10px;
+          font-weight: 700;
+          font-size: 16px;
+          color: #dbe126;
+          text-decoration: none;
+          position: absolute;
+          right: 0px;
+          img {
+            height: 24px;
+            width: 24px;
+          }
+        }
       }
       .careers-specifications {
         font-weight: 400;
