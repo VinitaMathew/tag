@@ -9,8 +9,10 @@
   }
   .tag-landing-page {
     width: 100%;
-    height: 700px;
+    height: 625px;
     overflow: hidden;
+    max-width: 1224px;
+    margin: auto;
     .tag-border-image1 {
       position: absolute;
       left: -303px;
@@ -27,13 +29,18 @@
       cursor: pointer;
     }
     .tag-info-container {
-      max-width: 85%;
-      margin: auto;
+      display: flex;
       .tag-info-image {
-        position: absolute;
-        right: 0;
-        top: 88px;
+        width: 58%;
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .routingContainer {
+    .tag-landing-page {
+      max-width: 85%;
     }
   }
 }

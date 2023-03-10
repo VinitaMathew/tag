@@ -17,7 +17,7 @@
       }
     }
     .products-list {
-      max-width: 85%;
+      max-width: 1224px;
       margin: auto;
       display: flex;
       flex-wrap: wrap;
@@ -63,6 +63,16 @@
           transform: scale(1.5);
           transition: transform 0.45s ease-out;
         }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .productsPageContainer {
+    .products-section-wrapper {
+      .products-list {
+        max-width: 85%;
       }
     }
   }

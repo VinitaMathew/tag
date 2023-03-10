@@ -63,8 +63,10 @@ export default function AboutPage() {
             Fermentum accumsan at eget.
           </p>
         </div>
-        <img src={AboutImage2} alt="" className="about-image2" />
-        <img className="tag-border-image3-4" src={BorderImage3} alt="" />
+        <div className="section2-image-wrapper">
+          <img src={AboutImage2} alt="" className="about-image2" />
+          <img className="tag-border-image3-4" src={BorderImage3} alt="" />
+        </div>
       </div>
       <div
         ref={ref3}

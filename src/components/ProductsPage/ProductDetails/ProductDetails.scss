@@ -1,5 +1,5 @@
 .product-details-wrapper {
-  height: 1100px;
+  min-height: 1100px;
   margin-top: 20px;
   .dashboard-image {
     width: 100%;
@@ -7,6 +7,8 @@
   }
   .detail-wrapper {
     position: relative;
+    max-width: 1400px;
+    margin: auto;
     .detail-section {
       position: absolute;
       left: 50%;

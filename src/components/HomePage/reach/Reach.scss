@@ -1,4 +1,6 @@
 .reachContainer {
+  max-width: 1224px;
+  margin: auto;
   height: 1670px;
   .reach-section {
     margin-top: 70px;
@@ -10,6 +12,7 @@
       width: fit-content;
       .reach-image {
         position: relative;
+        width: 600px;
       }
       &::before {
         content: "";
@@ -18,7 +21,7 @@
         top: -40px;
         transform: translateX(-50%);
         border-left: 116px solid #dbe126;
-        height: 120%;
+        height: 355px;
       }
     }
     .react-content-section {
@@ -48,6 +51,23 @@
         margin: auto 40px;
         &:hover {
           color: #dbe126;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .reachContainer {
+    max-width: 100%;
+    margin: auto;
+    .reach-section {
+      .reach-image-wrapper {
+        .reach-image {
+          width: unset;
+        }
+        &::before {
+          height: 119%;
         }
       }
     }

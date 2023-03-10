@@ -33,6 +33,10 @@
       margin-top: 59px;
     }
   }
+  .sc-ifAKCX {
+    max-width: 1422px;
+    margin: auto;
+  }
   //buttons
   .sc-bdVaJa {
     .kVtMtA {
@@ -44,7 +48,7 @@
   }
   //list
   .sc-EHOje {
-    max-width: 86%;
+    max-width: 1224px;
     margin: auto;
     .item-set__item {
       transition: all 0.35s ease;
@@ -142,6 +146,14 @@
         opacity: 1;
         transition: opacity 1s ease-out, transform 0.45s ease-out;
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .servicesContainer {
+    .sc-EHOje {
+      max-width: 85%;
     }
   }
 }
