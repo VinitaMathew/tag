@@ -1,4 +1,10 @@
 .routingContainer {
   color: #ffffff;
   background: #111111;
+  .not-desktop-msg {
+    height: 100vh;
+    padding-top: 70px;
+    width: 90%;
+    margin: auto;
+  }
 }

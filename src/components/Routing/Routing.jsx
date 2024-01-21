@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { BrowserRouter as Route, Routes, HashRouter } from "react-router-dom";
 import Home from "../HomePage/Home";
 import Menu from "../menu/Menu";
@@ -20,22 +20,31 @@ export default function Routing() {
   const scrollToContact = () => {
     ref.current.scrollIntoView({ behavior: "smooth" });
   };
+  const [isNotDesktop] = useState(
+    window.matchMedia("only screen and (max-width:1150px)").matches
+  );
 
   return (
     <div className="routingContainer">
-      <HashRouter>
-        <div className="tag-menu-container">
-          <Menu contactClick={scrollToContact} />
+      {isNotDesktop ? (
+        <div className="not-desktop-msg">
+          This website is designed for desktop users only!
         </div>
-        <Routes>
-          <Route path="/" element={<Home contactClick={scrollToContact} />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/products" element={<ProductsPage />} />
-          <Route path="/blog" element={<BlogPage />} />
-          <Route path="/careers" element={<CareersPage />} />
-        </Routes>
-        <Contact ref={ref} homeClick={scrollToHome} />
-      </HashRouter>
+      ) : (
+        <HashRouter>
+          <div className="tag-menu-container">
+            <Menu contactClick={scrollToContact} />
+          </div>
+          <Routes>
+            <Route path="/" element={<Home contactClick={scrollToContact} />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/products" element={<ProductsPage />} />
+            <Route path="/blog" element={<BlogPage />} />
+            <Route path="/careers" element={<CareersPage />} />
+          </Routes>
+          <Contact ref={ref} homeClick={scrollToHome} />
+        </HashRouter>
+      )}
     </div>
   );
 }
